@@ -1,1 +1,59 @@
-# ht85
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>出售域名</title>
+    <style>
+        body {
+            font-family: "微软雅黑", sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 80px auto;
+            background-color: #fff;
+            padding: 30px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            font-size: 18px;
+            color: #555;
+            margin: 15px 0;
+        }
+        .contact {
+            margin-top: 30px;
+            font-weight: bold;
+            font-size: 20px;
+            color: #007BFF;
+        }
+        .price {
+            font-size: 22px;
+            color: #e91e63;
+            margin-top: 15px;
+        }
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>出售域名：<span id="domain">ht85.com</span></h1>
+        <p>这是一个非常有价值的域名，适合您的业务发展。</p>
+        <p class="price">报价：<span id="price">￥10000</span></p>
+        <p class="contact">电报联系方式：<a href="https://t.me/kk86648" id="contact">@kk86648</a></p>
+    </div>
+</body>
+</html>
